@@ -68,11 +68,12 @@ export const Footer = () => {
                 <Phone size={18} className="shrink-0" />
                 <a 
                   href="tel:+919876543210"
-                  className="hover:text-primary transition-colors duration-300"
+                  className="text-muted-foreground hover:text-savora-navy transition-colors duration-300"
                 >
                   +91 98765 43210
                 </a>
               </li>
+
 
               <li className="flex items-center gap-3">
                 <Mail size={18} className="shrink-0" />
