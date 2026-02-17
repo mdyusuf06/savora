@@ -54,12 +54,26 @@ export const Footer = () => {
             <ul className="space-y-4 text-sm text-gray-400">
               <li className="flex items-start gap-3">
                 <MapPin size={18} className="mt-0.5 shrink-0" />
-                <span>Devaram Complex, 27th Cross Road, Jayanagar 3rd Block, Bangalore</span>
+                <a
+                  href="https://maps.app.goo.gl/JbNPRsDMni1SRPtY7"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:underline"
+                >
+                  Devaram Complex, 27th Cross Road, Jayanagar 3rd Block, Bangalore
+                </a>
+
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={18} className="shrink-0" />
-                <span>+91 98765 43210</span>
+                <a 
+                  href="tel:+919876543210"
+                  className="hover:text-primary transition-colors duration-300"
+                >
+                  +91 98765 43210
+                </a>
               </li>
+
               <li className="flex items-center gap-3">
                 <Mail size={18} className="shrink-0" />
                 <span>hello@savora.in</span>
