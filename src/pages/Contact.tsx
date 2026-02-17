@@ -48,8 +48,17 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-bold text-savora-navy mb-1">Visit Us</h3>
-                    <p className="text-muted-foreground">Devaram Complex, 27th Cross Road,<br/>Jayanagar 3rd Block, Bangalore - 560011</p>
+                    <a 
+                      href="https://maps.app.goo.gl/dG5Sw2QKcZkDSQs58" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-muted-foreground hover:text-primary transition-colors duration-300"
+                    >
+                      Devaram Complex, 27th Cross Road,<br/>
+                      Jayanagar 3rd Block, Bangalore - 560011
+                    </a>
                   </div>
+
                 </div>
 
                 <div className="flex items-start gap-4">
@@ -58,8 +67,14 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-bold text-savora-navy mb-1">Call Us</h3>
-                    <p className="text-muted-foreground">+91 98765 43210</p>
+                    <a 
+                      href="tel:+919876543210"
+                      className="text-muted-foreground hover:text-primary transition-colors duration-300"
+                    >
+                      +91 98765 43210
+                    </a>
                   </div>
+
                 </div>
 
                 <div className="flex items-start gap-4">
